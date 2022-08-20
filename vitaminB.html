@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/756be346c4.js" crossorigin="anonymous"></script>
+<title> Vitamin B</title>
+<style>
+nav{height:12vh;width:100%;background:#c25922;
+
+}
+#logo img{width:40px;height:40px;margin:11px 15px;border:4px double #fff8dc; border-radius:50%; display:flex;
+}
+nav ul{list-style:none;display:flex;margin-right:15px;}
+nav li{margin-right:10px;color:white;}
+nav a{text-decoration:none;font-size:20px;}
+#value{color:white;font-family:sans-serif;}
+#value:hover{background:#cd853f;
+border:10px solid #cd853f;
+}
+
+.main-part{margin-left:30px;margin-right:350px;margin-top:30px;}
+aside{float:right;width:250px;height:auto;margin-right:30px;color:brown;margin-top:-20px;}
+.asidedata {box-shadow:3px 3px 3px gray;border:1px solid gray;margin-top:35px;}
+.asidedata h4{background:#c25922;color:white;text-align:center;font-size:20px;border:6px solid #c25922;font-family:sans-serif;}
+.asidedata a{text-decoration:none;
+color:brown;}
+.asidedata,.data2 a:hover{color:crimson;}
+.picdata{margin-top:40px;}
+.picdata2{width:248px;float:right;height:250px;border:6px solid white; box-shadow:2px 2px 4px 3px gray;margin-top:85px; margin-bottom:85px; background-image:url("https://images.pexels.com/photos/793765/pexels-photo-793765.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");background-size:cover;
+display:flex;
+align-items:flex-end;
+}
+
+.picdata3{width:248px;float:right;height:250px;border:6px solid white; box-shadow:2px 2px 4px 3px gray;margin-top:55px; margin-bottom:85px;background-image:url("https://media.istockphoto.com/photos/womans-hands-holding-bowl-with-nuts-walnut-pistachios-almonds-picture-id582277290?b=1&k=20&m=582277290&s=170667a&w=0&h=xv3D9jSKojUTf8fq92k_4yYQ_QoyUbbNXaK9WtGy-U0=");background-size:cover;
+display:flex;
+align-items:flex-end;
+}
+.pictext{background:rgba(0,0,0,.4);width:100%;height:80px;color:white;line-height:1.2;}
+.main-part p,li{font-size:20px;font-family:calibiri;}
+.main-part img{width:100%;height:380px;}
+
+
+.footer{background:brown;width:100%;height:300px;color:white;}
+.data{display:flex;justify-content:space-around;}
+.footcard{width:20%;height:auto;background:brown;border:none;margin-top:35px;
+ }
+
+ .footcard h4{font-size:24px;font-weight:bold;margin-left:20px;}
+ #footcard4 h4{margin-left:0px;}
+ .footcard ul{list-style:none; }
+ .footcard a{text-decoration:none;
+ color:white;}
+ 
+.footcard a:hover{color:#ffe4c4;}
+ 
+ 
+@media (max-width:800px){
+.contain{margin-right:30px;}
+nav{width:100%;
+height:auto;}
+.contain h1{font-size:28px;}
+#photovit{height:300px;}
+#vit-text{font-size:20px;}
+#logo img{align-items:center;margin-bottom:0px; margin-top:0px;}
+
+
+.footer{height:400px;  background:brown;}
+.data{flex-direction:column;
+align-items:center;
+width:100%;
+}
+#card1head{display:flex;
+justify-content:center;}
+.footcard{width:100%;
+height:auto;
+line-height:1.5;
+font-size:16px;
+margin-top:-1px;
+}
+#footcard1 p{font-size:16px;}
+#footcard2 ul{display:flex; justify-content:center;}
+#footcard2 li{margin-right:4%;}
+.footcard h4 {display:flex; justify-content:center;}
+#footcard3 ul{display:grid;
+grid-template-columns:90px 90px 90px;
+justify-content:center;}
+#ctext{display:none;}
+#cicon{display:flex;
+justify-content:space-evenly;
+margin-right:2%;
+margin-left:2%;
+}
+
+.main-part{width:90%;
+margin-left:10px;
+}
+.main-part img{height:300px;}
+
+
+}
+
+.data2{margin-top:95px;border:1px solid gray;}
+h2{color:brown; font-family:seoge-UI; text-decoration:underline;}</style>
+
+
+<body>
+<section>
+<nav class="navbar  navbar-expand-lg navbar-light">
+<div class="container-fluid">
+<a id="logo" class="navbar-brand"  href="#"><img src="https://cdn-icons-png.flaticon.com/512/1052/1052788.png"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link" href="C:\Users\Jasdev Singh\Documents\vitaminhome.html"><span id="value">Home</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="C:\Users\Jasdev Singh\Documents\vitaminmore.html"><span id="value" >Read more</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="C:\Users\Jasdev Singh\Documents\vitaminmain.html"><span id="value">Vitamins</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="C:\Users\Jasdev Singh\Documents\vitaminchart.html"><span id="value">Charts</span></a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</section>
+
+<section class="sideside">
+<aside class="d-md-block d-none">
+
+<div class="asidedata">
+<h4>Essential vitamins</h4>
+<ul>
+<a href="#"><li>Vitamin A</li></a>
+<a href="#"><li>Vitamin B</li></a>
+<ul>
+<a href="#"><li>Vitamin B1</li></a>
+<a href="#"><li>Vitamin B2</li></a>
+<a href="#"><li>Vitamin B3</li></a>
+<a href="#"><li>Vitamin B5</li></a>
+<a href="#"><li>Vitamin B6</li></a>
+<a href="#"><li>Vitamin B7</li></a>
+<a href="#"><li>Vitamin B9</li></a>
+<a href="#"><li>Vitamin B12</li></a>
+</ul>
+<a href="#"><li>Vitamin C</li></a>
+<a href="#"><li>Vitamin D</li></a>
+<a href="#"><li>Vitamin E</li></a>
+<a href="#"><li>Vitamin K</li></a>
+</ul>
+</div>
+<div class="picdata2">
+<div class="pictext">
+<p>Vitamins performs hundreds of roles in our body by converting the food into energy.</p>
+</p>
+</div>
+
+</div>
+<br><br><br>
+<div class="picdata">
+<img src="https://www.thaibestsellers.com/wp-content/uploads/2018/08/HEALTHY-EATING-BENEFITS.jpg" width="250" height="250" style="border:6px solid white; box-shadow:2px 2px 4px 3px gray;">
+</div>
+<br><br><br>
+<div class="asidedata">
+<h4>National Reasearch on Vitamins</h4>
+<p>To visit the primary National institutes of health(NIH) for reasearch on Vitamins click below<br> <a style="color:blue;" href="https://ods.od.nih.gov/"><u>NIH reasearch on Vitamins</u></a></p> 
+</div>
+
+<br><br><br>
+<div class="picdata3">
+<div class="pictext">
+<p>Nuts and dry fruits are rich source of vitamin B and all its various types B1 to B12 .
+</p>
+</div>
+</div>
+<br><br><br>
+
+<div class="asidedata " style="margin-top:340px; position:absolute; width:250px;">
+<h4>Essential vitamins</h4>
+<ul>
+<a href="#"><li>Vitamin A</li></a>
+<a href="#"><li>Vitamin B</li></a>
+<ul>
+<a href="#"><li>Vitamin B1</li></a>
+<a href="#"><li>Vitamin B2</li></a>
+<a href="#"><li>Vitamin B3</li></a>
+<a href="#"><li>Vitamin B5</li></a>
+<a href="#"><li>Vitamin B6</li></a>
+<a href="#"><li>Vitamin B7</li></a>
+<a href="#"><li>Vitamin B9</li></a>
+<a href="#"><li>Vitamin B12</li></a>
+</ul>
+<a href="#"><li>Vitamin C</li></a>
+<a href="#"><li>Vitamin D</li></a>
+<a href="#"><li>Vitamin E</li></a>
+<a href="#"><li>Vitamin K</li></a>
+</ul>
+</div>
+<br><br><br>
+<div class="picdata" style="margin-top:900px; position:absolute;">
+<img src="https://media.istockphoto.com/photos/pistachios-nuts-on-wooden-background-picture-id1069512256?b=1&k=20&m=1069512256&s=170667a&w=0&h=eCpxp-vk3sNoSWRXkJuQl2ZkxiDBvAk4hg5-SkzklhE=" width="250" height="250" style="border:6px solid white; box-shadow:2px 2px 4px 3px gray;">
+</div>
+<br><br><br>
+<div class="asidedata" style="margin-top:1200px; margin-right:30px; position:absolute;">
+<h4>National Reasearch on Vitamins</h4>
+<p>To visit the primary National institutes of health(NIH) for reasearch on Vitamins click below<br> <a style="color:blue;" href="https://ods.od.nih.gov/"><u>NIH reasearch on Vitamins</u></a></p> 
+</div>
+
+</aside>
+
+<div class="main-part">
+   <h1>Things you need to know about Vitamin B and its various forms </h1>
+   <p>Vitamin B is water soluble vitamin. It plays an important role in maintaining health of our body and immune system with other metabolic processes. Vitamin B composed
+of eight B vitamins ranging from <b>B-1 to B-12 </b> having many metabolic functions and benefits.Each of these essential component or vitamins contributes to overall functions of the body.  </p>   
+<img src="https://media.istockphoto.com/photos/high-vitamin-b-sources-assortment-picture-id1256627955?b=1&k=20&m=1256627955&s=170667a&w=0&h=nNXUud4c5nCS5u9yOyrncERbCHuX2F1BMi8dgHbsF90=">
+ <br><br>
+ <h2>Benefit and sources of vitamin B1<b>(thiamin)</b>
+ <h3> Benefits of Vitamin B1</h3>
+ <ul>
+ <li>It uses in medicines</li>
+ <li>used for treatment of aids and cancer</li>
+  <li>helps to cure diabetic pain</li>
+ <li>helpful in motion sickness</li>
+ <li>uses to cure heart diseases</li>
+ <li>protect us from glaucoma and other vision problem</li>
+ 
+ </ul>
+   <h3> Sources of Vitamin B1</h3>
+ 
+ <ul>
+ <li>Cereals and pulses</li>
+ <li>Oranges</li>
+ <li>Eggs and yeast</li>
+  <li>Whole garin and nuts</li>
+ <li>Potatoes</li>
+ </ul>
+ 
+  <h2>Benefit and sources of vitamin B2<b>(riboflavin)</b>
+ <h3> Benefits of Vitamin B2</h3>
+ <ul>
+ <li>aids in energy production</li>
+ <li>helps regulate thyroid activity</li>
+  <li>maintaining healthy skin and eyes</li>
+ <li>boosts mineral abosorption in body</li>
+ <li>strengthens immune system</li>
+ </ul>
+  <h3> Sources of Vitamin B2</h3>
+ 
+ <ul>
+ <li>Fish, meat and poultry foods</li>
+ <li>Dairy products</li>
+ <li>Eggs</li>
+  <li>Avocados</li>
+ <li>Fortified cereals</li>
+  <li>Mushrooms</li>
+    <li>Beans and peas</li>
+ <li>Pumpkins</li>
+  <li>Sweet potatoes</li>
+  
+ </ul>
+ 
+ 
+ 
+  <h2>Benefit and sources of vitamin B3<b>(niacin)</b>
+ <h3> Benefits of Vitamin B3</h3>
+ <ul>
+ <li>improves colestrol level</li>
+ <li>can help treat diabetes</li>
+  <li>maintain skin health</li>
+ <li>helps in imporving brain functions </li>
+ <li>can prevent erectile dysfunction</li>
+ <li>treats pellagra </li>
+ 
+ </ul>
+   <h3> Sources of Vitamin B3</h3>
+ 
+ <ul>
+ <li>Beef liver</li>
+ <li>Grilled chicken breast</li>
+ <li>Cooked brown rice</li>
+  <li>Dry roasted peanuts</li>
+ <li>Cereals</li>
+  <li>Sockeye salmon</li>
+  
+ </ul>
+ 
+   <h2>Benefit and sources of vitamin B5 <b>(pantothenic acid)</b> and B6 <b>(pyridoxamine)</b>
+ <h3> Benefits of Vitamin B5 and B6</h3>
+ <ul>
+ <li>reduces stress</li>
+ <li>builds up stamina and immune system</li>
+  <li>helps to maintain healthy heart</li>
+ <li>stimulate adrenal hormones </li>
+ <li>can improve liver </li>
+  <li>B6 treats hair loss, dry skin and acne </li>
+ 
+ </ul>
+   <h3> Sources of Vitamin B5 and B6</h3>
+ 
+ <ul>
+ <li>Eggs and chicken</li>
+ <li>Mushrooms</li>
+ <li>Yogurt</li>
+  <li>Cabbage</li>
+ <li>Sweet potatoes</li>
+   <li>Bananas</li>
+ <li>Pistachios</li>
+ </ul>
+ 
+  
+   <h2>Benefit and sources of vitamin B7<b>(biotin)</b>
+ <h3> Benefits of Vitamin B7</h3>
+ <ul>
+ <li>maintain good skin and hair</li>
+ <li>helps in maintaining blood sugar level </li>
+  <li>helps in weight loss </li>
+ <li>good for proper heart functioning</li>
+ <li>beneficial for growth of muscle tissues </li>
+ 
+ </ul>
+   <h3> Sources of Vitamin B7</h3>
+ 
+ <ul>
+ <li>Tomatoes</li>
+ <li>Carrots</li>
+ <li>Almonds and walnut</li>
+  <li>Onions</li>
+ <li>Eggs and Salmon</li>
+ </ul>
+ 
+ 
+  
+   <h2>Benefit and sources of vitamin B9<b>(folic acid)</b>
+ <h3> Benefits of Vitamin B9</h3>
+ <ul>
+ <li>helps prevent birth defects</li>
+ <li>natural depression remedy</li>
+  <li>promotes heart health</li>
+ <li>improve level of hemoglobin </li>
+ <li>reduces risk of strokes in brain </li>
+  <li>reduces risk of cancer </li>
+ 
+ </ul>
+   <h3> Sources of Vitamin B9</h3>
+ 
+ <ul>
+ <li>Avocados</li>
+ <li>Brocolli</li>
+ <li>Oranges</li>
+  <li>Spinach</li>
+ <li>Green soyabeans</li>
+  <li>Sweet corn</li>
+ </ul>
+ 
+   <h2>Benefit and sources of vitamin B12<b>(cobalamin)</b>
+ <h3> Benefits of Vitamin B12</h3>
+ <ul>
+ <li>formation of red blood cells</li>
+ <li>improves brain health</li>
+  <li>supports nervous system</li>
+ <li>improves mood </li>
+ <li>support heathy hair, skin and nails </li>
+ 
+ </ul>
+   <h3> Sources of Vitamin B12</h3>
+ 
+ <ul>
+ <li>Almonds</li>
+ <li>Fish</li>
+ <li>Crab</li>
+  <li>Cheese</li>
+ <li>Chicken</li>
+  <li>Milk and eggs</li>
+ </ul>
+  <h3> Intake values of Vitamin B for men/women</h3>
+	<ul>
+    <li> <b>B1(thiamin)</b> 1.2 milligram(mg) per day</li> 
+	<li> <b>B2(riboflavin)</b> 1.3 milligram(mg) per day</li> 
+	<li> <b>B3 (niacin)</b> 16 milligram(mg) per day</li> 
+	<li> <b>B5 (pantothenic acid)</b> 5 milligram(mg) per day</li> 
+	<li> <b>B6 (pyridoxine)</b> 1.3 milligram(mg) per day</li> 
+	<li> <b>B7 (biotin)</b> 30 microgram(mcg) per day</li> 
+	<li> <b>B9 (folic acid)</b> 400 microgram(mcg) per day</li> 
+	<li> <b>B12 (cobalamin)</b> 2.4 microgram(mcg) per day</li> 
+   </ul>
+   
+     <h3>Risk of over consuming </h3>
+<p>The consumption of vitamin B is common. Vitamin B is essential to maintain proper cell metabolism. It is a water soluble vitamin that is broken down by the body through digestion to promote proper body functioning. 
+As every coin as two sides thus overdose of these vitamins may cause many problems such as skin rashes, gastrointestine problems and mood swings.</p> 
+
+<div style="margin-bottom:20px;" class="asidedata d-md-none">
+<h4>National Reasearch on Vitamins</h4>
+<p>To visit the primary National institutes of health(NIH) for reasearch on Vitamins click below<br> <a style="color:blue;" href="https://ods.od.nih.gov/"><u>NIH reasearch on Vitamins</u></a></p> 
+</div>
+</div>
+</section>
+
+<section>
+<div class="footer">
+<div class="data">
+<div class="footcard" id="footcard1">
+<div id="card1head" style="display:flex;">
+<img style="border:2px double white; border-radius:50%;" src="https://cdn-icons-png.flaticon.com/512/1052/1052788.png" width="30px" height="30px">
+<h4>VITA<span style="color:#ffa070">MINS</span></h4>
+</div>
+<p>
+“Vitamins are your best friend in life! Your body and mind get what they want from the vitamins and reach towards perfection!”
+<br>
+<span style="float:right; margin-right:4px;"><b>- Victorious Elements</b></span>
+</p>
+</div>
+<div class="footcard" id="footcard2">
+<h4>Quick links</h4>
+<ul>
+<li>
+<a  href="#">Home</a>
+</li>
+<li>
+<a  href="#">Read more</a>
+</li>
+<li>
+<a  href="#">Vitamins</a>
+</li>
+<li>
+<a  href="#">About</a>
+</li>
+</ul></div>
+<div class="footcard" id="footcard3">
+<h4>Essential Vitamins</h4>
+<ul>
+<li>
+<a  href="#">Vitamin A</a>
+</li>
+<li>
+<a  href="#">Vitamin B</a>
+</li>
+<li>
+<a  href="#">Vitamin C</a>
+</li>
+<li>
+<a  href="#">Vitamin D</a>
+</li>
+<li>
+<a  href="#">Vitamin E</a>
+</li>
+<li>
+<a  href="#">Vitamin K</a>
+</li>
+</ul></div>
+<div class="footcard" id="footcard4">
+<h4>Contact</h4>
+<div id="cicon">
+<a href="#"><i  id="icon" class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;<u><span id="ctext">Visit Github Profile</span></u></a>
+<br>
+<a href="#"><i id="icon" class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;<u><span id="ctext">Visit Instagram Profile</span></u></a>
+<br><span id="ctext"><br>
+<h6>mail me at:</h6></span>
+<a href="#"><i id="icon" class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;<span id="ctext">jdweb0001@gmail.com</span></a></div>
+</div>
+</div>
+
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
